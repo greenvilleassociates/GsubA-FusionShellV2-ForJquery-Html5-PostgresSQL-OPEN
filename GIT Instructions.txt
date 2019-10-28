@@ -5,10 +5,8 @@
 //TESTDIR - BELOW IS THE TARGET WEB SERVER DIRECTORY
 
 $ sudo apt-get install git python
-$ sudo git clone https://github.com/greenvilleassociates/gsuba-fusion /web/testgitdir/  
+$ sudo git clone https://github.com/greenvilleassociates/gsuba-fusion-v2-mysql /web/testgitdir/  
 
-//GSUBA-FUSION BASIC IS COMPLETE (1.0). STOP
-//FOR THE ADVANCED VERSION OR HELP WITH JOOMLA- GO PAST 
 
 //CREATE MYSQL DATABASES FOR JOOMLA AND WORDPRESS
 mysql -u root -p
