@@ -1,4 +1,5 @@
-# gsuba-fusion
+# GsubA-Fusion V2 FOR POSTGRES SQL
+
 Greenville Associates Fusion Shell - Version 2 - Offering Support for Postgres SQL Applications, or Hybrid Postgres-Other SQL Platforms.
 
 This shell provides a Open Platform Targeted Windowing System(On Windows/Linux/Unix) to provide javascript, HML5, PHP, Custom Microsoft(.ASPX), and Adobe Cold Fusion binaries to work in an integrated web framework. The Shell also hides the complexity of the software solution from the search bar, making it much friendlier to computer security architects. The shell works with IIS, Apache, and NGINX web servers without modification and links to any database platform supported by your web server. The First release
