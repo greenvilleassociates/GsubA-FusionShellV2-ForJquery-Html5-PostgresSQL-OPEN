@@ -8,19 +8,28 @@ In General the Gsuba-fusion shell provides a Commerical Desktop Experience to we
 
 We can rebuild corporate Lanscapes at Levels as low as three deep using Image Maps, combined with a Joomla datastore. The default install includes a Header and Footer File which can be customized to meet your business needs. (header.html), and (footer.html).
 
-In the first release we are offering a fixed web platform of 1200px x Unlimited, but the system fixes the bottom bar to a corporate logo offering a much more sophisticated marketing delivery.
+In the first release we delivered a fixed web platform of 1200px x Unlimited, while the system fixes the bottom bar to a corporate logo offering a much more sophisticated marketing delivery. The 2nd Release as included herein has a bootstrap program in index.html which determines the screen resolution and then forwards the code to one or more framing standards. The frame itself has been extensively tested and allows a single responsive template for web delivery. An Optional overlay mobile solution can be added with a different code base to add interest.
 
 INSTRUCTIONS FOR ADDING WORDPRESS LINKS
 
-We recommend installing Wordpress in a "w" directory below the root for the Shell. Create a Mysql database and password and install wordpress from wordpress.org
+Wordpress in Version 2 is included in the /w directory and includes the Postgres drivers preconfigured. However Postgres needs to be installed
+manually, and appropriate database permisions for the 2Dot release need to be done by a qualified administrator. G/a is not bundling Postgres
+in this solution specifically as we do not have as yet an agreement to do so with them.
 
 INSTRUCTIONS FOR ADDING JOOMLA LINKS
 
-We recommend installing Joomla in a "h" directory below the root for the Shell. Create a Mysql database and password and install joomla from joomla.org.
+Joomla supports Postgres PHP installations natively and the Joomal installation directory is included in the ./h directory. Its fully functional,
+but like Wordpress, the Postgres DBMS needs to be installed and your users created. We have offered instructions of how to install Postgres for MACOS, Linux,
+and Windows including the PGADMIN administration tool.
 
-INSTRUCTIONS FOR ADDING FUSIONSHELL TO CPANEL
+INSTRUCTIONS FOR ADDING FUSIONSHELL TO CPANEL(V1/V2/V3) - Shared cPAnel Users.
 
-On Cpanel put the Shell in the root hosting account, and use Softalicious, or Installatron to install applications for the shell. Then just change the links in the header.html file to the location of your code. And Wala you are done.
+In Cpanel, Git needs to be used to install the base package, but cpanel doesnt include Mysql as a base. Cpanel however does have different
+versions which run on Posgtres and can be downloaded from them. This allows the V2 shell to be used effectively, however we recommend if you
+have a cPanel server with Installatron(Web.com, others) or Softalicious(SiteGround, etc) then you should install the V1 shell, and then install
+wordpress and joomla to the target directories.
+
+On Cpanel put the V1 Shell in the root hosting account, and use Softalicious, or Installatron to install applications for the shell. Then just change the links in the header.html file to the location of your code. And Wala you are done.
 
 EXAMPLES CAN BE FOUND ON CAPITOLTECHNOLOGY.US, AND GREENVILLEASSOCIATES.US
 
@@ -28,9 +37,11 @@ If you do this will allow you to maintain consistency with future releases. We h
 
 It took a few years to make it look nice... so it looks simple but to get cross-browser support looking good is quite difficult in fact.
 
-RELEASE2 is coming... and it will dynamically adjust the framesize we have set to 1300px's in the Index.html. Changing that feed to 1040px, or 1200px is easy to do. PLease note almost all new phones, and new PC's will support 1400x1200 resolutions or higher. Older PC's typically dont do too well with HTML in general so we have decided to make a clean break.
+RELEASE 2 CHANGES 
 
-RELEASE3 will include an integreate Web Mobility client for Android, and for IoS which should be Q1, 2020.
+RELEASE2 is HERE! The G/a shell now dynamically adjusts the framesize we have set to 1300px's in the Index.html. Changing that feed to 1040px, or 1200px is easy to do. PLease note almost all new phones, and new PC's will support 1400x1200 resolutions or higher. Older PC's typically dont do too well with HTML in general so we have decided to make a clean break.
+
+RELEASE3 will include an integreate Web Mobility client for Android, and for IoS which should be Q1, 2020, and offer proprietary MS-SQL technologies as well as the FusionOpen, and FusionShell Products which are opensource bases.
 
 Sincerely,
 John S. Stritzinger
